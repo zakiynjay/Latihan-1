@@ -31,7 +31,7 @@
                         @endforeach
                         </tbody>
                         </table>
-                        {{$model->links()}}
+                        {{$model->links('pagination.home')}}
                 </div>
             </div>
         </div>
